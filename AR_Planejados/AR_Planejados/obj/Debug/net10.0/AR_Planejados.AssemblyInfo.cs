@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AR_Planejados")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac5ca9bed38c92a737870a0529a2e0901684ba21")]
 [assembly: System.Reflection.AssemblyProductAttribute("AR_Planejados")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AR_Planejados")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
