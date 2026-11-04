@@ -1,45 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\",
+  "WorkspaceRootPath": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\controllers\\clientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\projetodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\dto\\projetodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\clientecadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\dto\\clientecadastrodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\dto\\clientedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\orcamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\projetodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\dto\\projetodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\dto\\orcamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\dto\\orcamentodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\ar_planejados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\ar_planejados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\ar_planejados.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\controllers\\orcamentocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\54198904880\\desktop\\ar_planejados\\ar_planejados\\ar_planejados\\data\\arplanejadoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|c:\\users\\jns44\\onedrive\\\u00E1rea de trabalho\\ar_planejados\\ar_planejados\\ar_planejados\\data\\arplanejadoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B07C4ACE-4C1F-9B87-2584-7517DC11D19F}|AR_Planejados\\AR_Planejados.csproj|solutionrelative:ar_planejados\\data\\arplanejadoscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -50,41 +54,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProjetoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ProjetoDTO.cs",
-              "RelativeDocumentMoniker": "AR_Planejados\\DTO\\ProjetoDTO.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ProjetoDTO.cs",
-              "RelativeToolTip": "AR_Planejados\\DTO\\ProjetoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Title": "ClienteCadastroDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ClienteCadastroDTO.cs",
+              "RelativeDocumentMoniker": "AR_Planejados\\DTO\\ClienteCadastroDTO.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ClienteCadastroDTO.cs",
+              "RelativeToolTip": "AR_Planejados\\DTO\\ClienteCadastroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T15:57:09.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrcamentoDTO.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\OrcamentoDTO.cs",
-              "RelativeDocumentMoniker": "AR_Planejados\\DTO\\OrcamentoDTO.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\OrcamentoDTO.cs",
-              "RelativeToolTip": "AR_Planejados\\DTO\\OrcamentoDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T15:56:15.065Z",
+              "WhenOpened": "2026-11-04T17:32:18.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ClienteDTO.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ClienteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ClienteDTO.cs",
               "RelativeDocumentMoniker": "AR_Planejados\\DTO\\ClienteDTO.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ClienteDTO.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ClienteDTO.cs",
               "RelativeToolTip": "AR_Planejados\\DTO\\ClienteDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,76 +84,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AR_Planejados",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\AR_Planejados.csproj",
+              "DocumentIndex": 6,
+              "Title": "AR_Planejados.csproj",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\AR_Planejados.csproj",
               "RelativeDocumentMoniker": "AR_Planejados\\AR_Planejados.csproj",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\AR_Planejados.csproj",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\AR_Planejados.csproj",
               "RelativeToolTip": "AR_Planejados\\AR_Planejados.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-11-03T15:55:25.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T15:55:25.837Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrcamentoController.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\OrcamentoController.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\OrcamentoController.cs",
               "RelativeDocumentMoniker": "AR_Planejados\\Controllers\\OrcamentoController.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\OrcamentoController.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\OrcamentoController.cs",
               "RelativeToolTip": "AR_Planejados\\Controllers\\OrcamentoController.cs",
               "ViewState": "AgIAAEsAAAAAAAAAAAAgwGkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T14:38:37.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T14:38:37.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProjetoController.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ProjetoController.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ProjetoController.cs",
               "RelativeDocumentMoniker": "AR_Planejados\\Controllers\\ProjetoController.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ProjetoController.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ProjetoController.cs",
               "RelativeToolTip": "AR_Planejados\\Controllers\\ProjetoController.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAgwF8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-03T14:37:20.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T14:37:20.071Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ClienteController.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ClienteController.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ClienteController.cs",
               "RelativeDocumentMoniker": "AR_Planejados\\Controllers\\ClienteController.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ClienteController.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Controllers\\ClienteController.cs",
               "RelativeToolTip": "AR_Planejados\\Controllers\\ClienteController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAYwFMAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAmwEUAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-22T18:55:38.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Program.cs",
-              "RelativeDocumentMoniker": "AR_Planejados\\Program.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Program.cs",
-              "RelativeToolTip": "AR_Planejados\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "OrcamentoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\OrcamentoDTO.cs",
+              "RelativeDocumentMoniker": "AR_Planejados\\DTO\\OrcamentoDTO.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\OrcamentoDTO.cs",
+              "RelativeToolTip": "AR_Planejados\\DTO\\OrcamentoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-22T13:28:58.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-03T15:56:15.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjetoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ProjetoDTO.cs",
+              "RelativeDocumentMoniker": "AR_Planejados\\DTO\\ProjetoDTO.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\DTO\\ProjetoDTO.cs",
+              "RelativeToolTip": "AR_Planejados\\DTO\\ProjetoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-03T15:57:09.764Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Program.cs",
+              "RelativeDocumentMoniker": "AR_Planejados\\Program.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Program.cs",
+              "RelativeToolTip": "AR_Planejados\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-22T13:28:58.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\appsettings.json",
               "RelativeDocumentMoniker": "AR_Planejados\\appsettings.json",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\appsettings.json",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\appsettings.json",
               "RelativeToolTip": "AR_Planejados\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -170,11 +181,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "ARPlanejadosContext.cs",
-              "DocumentMoniker": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Data\\ARPlanejadosContext.cs",
+              "DocumentMoniker": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Data\\ARPlanejadosContext.cs",
               "RelativeDocumentMoniker": "AR_Planejados\\Data\\ARPlanejadosContext.cs",
-              "ToolTip": "C:\\Users\\54198904880\\Desktop\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Data\\ARPlanejadosContext.cs",
+              "ToolTip": "C:\\Users\\jns44\\OneDrive\\\u00C1rea de Trabalho\\AR_Planejados\\AR_Planejados\\AR_Planejados\\Data\\ARPlanejadosContext.cs",
               "RelativeToolTip": "AR_Planejados\\Data\\ARPlanejadosContext.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

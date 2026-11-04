@@ -1,6 +1,7 @@
 ﻿
 using AR_Planejados.Data;
 using AR_Planejados.Models;
+using ARPlanejados.DTOs;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,16 +20,37 @@ namespace AR_Planejados.Controllers
 
         // GET: api/Cliente
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Cliente>>> Listar()
+        public async Task<ActionResult<IEnumerable<ClienteDTO>>> Listar()
         {
-            return await _context.Clientes.ToListAsync();
+            var clientes = await _context.Clientes
+                .Select(c => new ClienteDTO
+                {
+                    IdCliente = c.IdCliente,
+                    Nome = c.Nome,
+                    Telefone = c.Telefone,
+                    Email = c.Email,
+                    DataCadastro = c.DataCadastro
+                })
+                .ToListAsync();
+
+            return Ok(clientes);
         }
 
         // GET: api/Cliente/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Cliente>> Buscar(int id)
+        public async Task<ActionResult<ClienteDTO>> Buscar(int id)
         {
-            var cliente = await _context.Clientes.FindAsync(id);
+            var cliente = await _context.Clientes
+                .Where(c => c.IdCliente == id)
+                .Select(c => new ClienteDTO
+                {
+                    IdCliente = c.IdCliente,
+                    Nome = c.Nome,
+                    Telefone = c.Telefone,
+                    Email = c.Email,
+                    DataCadastro = c.DataCadastro
+                })
+                .FirstOrDefaultAsync();
 
             if (cliente == null)
                 return NotFound("Cliente não encontrado.");
@@ -36,19 +58,37 @@ namespace AR_Planejados.Controllers
             return Ok(cliente);
         }
 
+
         // POST: api/Cliente
         [HttpPost]
-        public async Task<ActionResult<Cliente>> Cadastrar(Cliente cliente)
+        public async Task<ActionResult<ClienteDTO>> Cadastrar(ClienteCadastroDTO clienteDTO)
         {
+            var cliente = new Cliente
+            {
+                Nome = clienteDTO.Nome,
+                Telefone = clienteDTO.Telefone,
+                Email = clienteDTO.Email
+            };
+
             _context.Clientes.Add(cliente);
             await _context.SaveChangesAsync();
+
+            var resposta = new ClienteDTO
+            {
+                IdCliente = cliente.IdCliente,
+                Nome = cliente.Nome,
+                Telefone = cliente.Telefone,
+                Email = cliente.Email,
+                DataCadastro = cliente.DataCadastro
+            };
 
             return CreatedAtAction(
                 nameof(Buscar),
                 new { id = cliente.IdCliente },
-                cliente
+                resposta
             );
         }
+
 
         // PUT: api/Cliente/5
         [HttpPut("{id}")]

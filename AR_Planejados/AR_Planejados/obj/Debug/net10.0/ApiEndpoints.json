@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[AR_Planejados.Models.Cliente, AR_Planejados, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ARPlanejados.DTOs.ClienteDTO, AR_Planejados, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -28,14 +28,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "cliente",
-        "Type": "AR_Planejados.Models.Cliente",
+        "Name": "clienteDTO",
+        "Type": "ARPlanejados.DTOs.ClienteCadastroDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "AR_Planejados.Models.Cliente",
+        "Type": "ARPlanejados.DTOs.ClienteDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "AR_Planejados.Models.Cliente",
+        "Type": "ARPlanejados.DTOs.ClienteDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
