@@ -19,6 +19,7 @@ namespace AR_Planejados.Controllers
         }
 
         // GET: api/Cliente
+        // Lista todos os clientes
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ClienteDTO>>> Listar()
         {
@@ -37,6 +38,7 @@ namespace AR_Planejados.Controllers
         }
 
         // GET: api/Cliente/5
+        // Busca um cliente pelo ID
         [HttpGet("{id}")]
         public async Task<ActionResult<ClienteDTO>> Buscar(int id)
         {
@@ -58,10 +60,32 @@ namespace AR_Planejados.Controllers
             return Ok(cliente);
         }
 
+        // GET: api/Cliente/5/editar
+        // Busca os dados para preencher o formulário de edição
+        [HttpGet("{id}/editar")]
+        public async Task<ActionResult<ClienteEditarDTO>> BuscarParaEditar(int id)
+        {
+            var cliente = await _context.Clientes
+                .Where(c => c.IdCliente == id)
+                .Select(c => new ClienteEditarDTO
+                {
+                    Nome = c.Nome,
+                    Telefone = c.Telefone,
+                    Email = c.Email
+                })
+                .FirstOrDefaultAsync();
+
+            if (cliente == null)
+                return NotFound("Cliente não encontrado.");
+
+            return Ok(cliente);
+        }
 
         // POST: api/Cliente
+        // Cadastra um novo cliente
         [HttpPost]
-        public async Task<ActionResult<ClienteDTO>> Cadastrar(ClienteCadastroDTO clienteDTO)
+        public async Task<ActionResult<ClienteDTO>> Cadastrar(
+            ClienteCadastroDTO clienteDTO)
         {
             var cliente = new Cliente
             {
@@ -71,6 +95,7 @@ namespace AR_Planejados.Controllers
             };
 
             _context.Clientes.Add(cliente);
+
             await _context.SaveChangesAsync();
 
             var resposta = new ClienteDTO
@@ -89,29 +114,38 @@ namespace AR_Planejados.Controllers
             );
         }
 
-
         // PUT: api/Cliente/5
+        // Atualiza os dados de um cliente
         [HttpPut("{id}")]
-        public async Task<IActionResult> Editar(int id, Cliente cliente)
+        public async Task<ActionResult<ClienteDTO>> Editar(
+            int id,
+            ClienteEditarDTO clienteDTO)
         {
-            if (id != cliente.IdCliente)
-                return BadRequest("ID inválido.");
-
             var clienteExistente = await _context.Clientes.FindAsync(id);
 
             if (clienteExistente == null)
                 return NotFound("Cliente não encontrado.");
 
-            clienteExistente.Nome = cliente.Nome;
-            clienteExistente.Telefone = cliente.Telefone;
-            clienteExistente.Email = cliente.Email;
+            clienteExistente.Nome = clienteDTO.Nome;
+            clienteExistente.Telefone = clienteDTO.Telefone;
+            clienteExistente.Email = clienteDTO.Email;
 
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            var resposta = new ClienteDTO
+            {
+                IdCliente = clienteExistente.IdCliente,
+                Nome = clienteExistente.Nome,
+                Telefone = clienteExistente.Telefone,
+                Email = clienteExistente.Email,
+                DataCadastro = clienteExistente.DataCadastro
+            };
+
+            return Ok(resposta);
         }
 
         // DELETE: api/Cliente/5
+        // Exclui um cliente
         [HttpDelete("{id}")]
         public async Task<IActionResult> Excluir(int id)
         {
@@ -124,9 +158,12 @@ namespace AR_Planejados.Controllers
                 .AnyAsync(o => o.IdCliente == id);
 
             if (possuiOrcamentos)
-                return Conflict("Não é possível excluir um cliente que possui orçamentos.");
+                return Conflict(
+                    "Não é possível excluir um cliente que possui orçamentos."
+                );
 
             _context.Clientes.Remove(cliente);
+
             await _context.SaveChangesAsync();
 
             return NoContent();

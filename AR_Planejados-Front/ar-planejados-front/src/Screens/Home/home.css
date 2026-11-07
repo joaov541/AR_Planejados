@@ -1,0 +1,468 @@
+
+/* CONFIGURAÇÃO GERAL */
+
+.pagina-home {
+    width: 100%;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    color: #252525;
+}
+
+.pagina-home a {
+    text-decoration: none;
+}
+
+/* BANNER PRINCIPAL */
+
+.hero {
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    background-image:
+        linear-gradient(
+            90deg,
+            rgba(25, 25, 25, 0.82),
+            rgba(25, 25, 25, 0.20)
+        ),
+        url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c");
+
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.hero-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 40px;
+    color: #fff;
+}
+
+.hero-subtitulo {
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #D9B995;
+    font-weight: bold;
+}
+
+.hero h1 {
+    font-size: clamp(42px, 5.5vw, 72px);
+    line-height: 1.12;
+    margin: 25px 0;
+    font-weight: 700;
+}
+
+.hero h1 span {
+    color: #D9B995;
+}
+
+.hero p {
+    max-width: 520px;
+    font-size: 17px;
+    line-height: 1.8;
+    color: #EEEEEE;
+}
+
+.hero-botoes {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+.botao-principal,
+.botao-secundario {
+    padding: 16px 25px;
+    border-radius: 3px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.botao-principal {
+    background: #A47750;
+    color: white;
+}
+
+.botao-principal:hover {
+    background: #875E3D;
+}
+
+.botao-secundario {
+    border: 1px solid #fff;
+    color: white;
+}
+
+.botao-secundario:hover {
+    background: white;
+    color: #252525;
+}
+
+/* APRESENTAÇÃO */
+
+.sobre-home {
+    padding: 100px 40px;
+    background: #FAF9F6;
+}
+
+.sobre-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 70px;
+}
+
+.secao-label {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: #A47750;
+    font-weight: bold;
+}
+
+.sobre-texto h2,
+.projetos-titulo h2 {
+    font-size: clamp(30px, 3.5vw, 42px);
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.sobre-texto h2 span {
+    color: #A47750;
+}
+
+.sobre-texto p,
+.projetos-titulo p {
+    font-size: 15px;
+    line-height: 1.9;
+    color: #777;
+}
+
+.link-detalhes {
+    display: inline-block;
+    margin-top: 30px;
+    color: #A47750;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sobre-imagem img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+}
+
+/* PROJETOS */
+
+.projetos-home {
+    padding: 100px 40px;
+    text-align: center;
+    background: #fff;
+}
+
+.projetos-titulo {
+    max-width: 650px;
+    margin: 0 auto 50px;
+}
+
+.projetos-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    text-align: left;
+}
+
+.projeto-card {
+    overflow: hidden;
+    background: #FAF9F6;
+}
+
+.projeto-card img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    transition: transform 0.4s;
+}
+
+.projeto-card:hover img {
+    transform: scale(1.04);
+}
+
+.projeto-info {
+    padding: 22px;
+}
+
+.projeto-info h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.projeto-info p {
+    color: #777;
+    font-size: 14px;
+}
+
+.botao-projetos {
+    display: inline-block;
+    margin-top: 45px;
+    padding: 15px 30px;
+    background: #252525;
+    color: white;
+    transition: 0.3s;
+}
+
+.botao-projetos:hover {
+    background: #A47750;
+}
+
+/* DIFERENCIAIS */
+
+.diferenciais-home {
+    padding: 100px 40px;
+    background: #F3EEE8;
+}
+
+.diferenciais-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.diferenciais-grid article {
+    padding: 15px 0;
+}
+
+.diferencial-numero {
+    color: #A47750;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.diferenciais-grid h3 {
+    font-size: 21px;
+    margin: 20px 0 12px;
+}
+
+.diferenciais-grid p {
+    font-size: 14px;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* CHAMADA DE ORÇAMENTO */
+
+.orcamento-home {
+    padding: 90px 25px;
+    text-align: center;
+    background: #252525;
+    color: white;
+}
+
+.orcamento-home > span {
+    color: #D9B995;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.orcamento-home h2 {
+    font-size: clamp(28px, 4vw, 42px);
+    margin: 25px 0 15px;
+}
+
+.orcamento-home p {
+    color: #CCC;
+    line-height: 1.8;
+    font-size: 15px;
+}
+
+.botao-whatsapp {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 16px 28px;
+    background: #A47750;
+    color: white;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.botao-whatsapp:hover {
+    background: #875E3D;
+}
+
+/* FOOTER */
+
+.footer-home {
+    background: #1C1C1C;
+    color: white;
+    padding: 35px 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.footer-container h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.footer-container p,
+.footer-container span {
+    color: #AAA;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+    .hero {
+        min-height: 540px;
+    }
+
+    .sobre-home,
+    .projetos-home,
+    .diferenciais-home {
+        padding: 75px 25px;
+    }
+
+    .sobre-container {
+        gap: 35px;
+    }
+
+    .sobre-imagem img {
+        height: 350px;
+    }
+
+    .projetos-grid {
+        gap: 15px;
+    }
+
+    .projeto-card img {
+        height: 220px;
+    }
+
+    .diferenciais-grid {
+        gap: 25px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+    .hero {
+        min-height: 570px;
+        background-position: center;
+    }
+
+    .hero-container {
+        padding: 65px 22px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .hero-botoes {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-botoes a {
+        text-align: center;
+    }
+
+    .sobre-home,
+    .projetos-home,
+    .diferenciais-home {
+        padding: 65px 22px;
+    }
+
+    .sobre-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .sobre-imagem img {
+        height: 280px;
+    }
+
+    .projetos-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .projeto-card img {
+        height: 250px;
+    }
+
+    .diferenciais-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .diferenciais-grid article {
+        border-bottom: 1px solid #DDD2C5;
+        padding-bottom: 25px;
+    }
+
+    .orcamento-home {
+        padding: 70px 22px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* TELAS MUITO PEQUENAS */
+
+@media (max-width: 360px) {
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-container {
+        padding: 50px 18px;
+    }
+
+    .botao-principal,
+    .botao-secundario {
+        padding: 14px 15px;
+        font-size: 13px;
+    }
+}

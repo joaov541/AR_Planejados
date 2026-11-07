@@ -147,24 +147,41 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/ClienteEditarDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/ClienteEditarDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Cliente"
+                "$ref": "#/components/schemas/ClienteEditarDTO"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClienteDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClienteDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClienteDTO"
+                }
+              }
+            }
           }
         }
       },
@@ -190,6 +207,46 @@
         }
       }
     },
+    "/api/Cliente/{id}/editar": {
+      "get": {
+        "tags": [
+          "Cliente"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClienteEditarDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClienteEditarDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ClienteEditarDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Orcamento": {
       "get": {
         "tags": [
@@ -203,7 +260,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Orcamento"
+                    "$ref": "#/components/schemas/OrcamentoDTO"
                   }
                 }
               },
@@ -211,7 +268,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Orcamento"
+                    "$ref": "#/components/schemas/OrcamentoDTO"
                   }
                 }
               },
@@ -219,7 +276,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Orcamento"
+                    "$ref": "#/components/schemas/OrcamentoDTO"
                   }
                 }
               }
@@ -235,17 +292,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Orcamento"
+                "$ref": "#/components/schemas/OrcamentoCadastroDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Orcamento"
+                "$ref": "#/components/schemas/OrcamentoCadastroDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Orcamento"
+                "$ref": "#/components/schemas/OrcamentoCadastroDTO"
               }
             }
           }
@@ -256,17 +313,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Orcamento"
+                  "$ref": "#/components/schemas/OrcamentoDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Orcamento"
+                  "$ref": "#/components/schemas/OrcamentoDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Orcamento"
+                  "$ref": "#/components/schemas/OrcamentoDTO"
                 }
               }
             }
@@ -296,17 +353,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Orcamento"
+                  "$ref": "#/components/schemas/OrcamentoDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Orcamento"
+                  "$ref": "#/components/schemas/OrcamentoDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Orcamento"
+                  "$ref": "#/components/schemas/OrcamentoDTO"
                 }
               }
             }
@@ -332,24 +389,41 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Orcamento"
+                "$ref": "#/components/schemas/OrcamentoEditarDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Orcamento"
+                "$ref": "#/components/schemas/OrcamentoEditarDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Orcamento"
+                "$ref": "#/components/schemas/OrcamentoEditarDTO"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrcamentoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrcamentoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrcamentoDTO"
+                }
+              }
+            }
           }
         }
       },
@@ -375,6 +449,46 @@
         }
       }
     },
+    "/api/Orcamento/{id}/editar": {
+      "get": {
+        "tags": [
+          "Orcamento"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrcamentoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrcamentoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrcamentoDTO"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Projeto": {
       "get": {
         "tags": [
@@ -388,7 +502,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Projeto"
+                    "$ref": "#/components/schemas/ProjetoDTO"
                   }
                 }
               },
@@ -396,7 +510,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Projeto"
+                    "$ref": "#/components/schemas/ProjetoDTO"
                   }
                 }
               },
@@ -404,7 +518,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/Projeto"
+                    "$ref": "#/components/schemas/ProjetoDTO"
                   }
                 }
               }
@@ -420,17 +534,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Projeto"
+                "$ref": "#/components/schemas/ProjetoCadastroDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Projeto"
+                "$ref": "#/components/schemas/ProjetoCadastroDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Projeto"
+                "$ref": "#/components/schemas/ProjetoCadastroDTO"
               }
             }
           }
@@ -441,17 +555,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Projeto"
+                  "$ref": "#/components/schemas/ProjetoDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Projeto"
+                  "$ref": "#/components/schemas/ProjetoDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Projeto"
+                  "$ref": "#/components/schemas/ProjetoDTO"
                 }
               }
             }
@@ -481,17 +595,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Projeto"
+                  "$ref": "#/components/schemas/ProjetoDTO"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Projeto"
+                  "$ref": "#/components/schemas/ProjetoDTO"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Projeto"
+                  "$ref": "#/components/schemas/ProjetoDTO"
                 }
               }
             }
@@ -517,24 +631,41 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Projeto"
+                "$ref": "#/components/schemas/ProjetoEditarDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Projeto"
+                "$ref": "#/components/schemas/ProjetoEditarDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Projeto"
+                "$ref": "#/components/schemas/ProjetoEditarDTO"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK"
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProjetoDTO"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProjetoDTO"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProjetoDTO"
+                }
+              }
+            }
           }
         }
       },
@@ -563,39 +694,6 @@
   },
   "components": {
     "schemas": {
-      "Cliente": {
-        "type": "object",
-        "properties": {
-          "idCliente": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "nome": {
-            "type": "string",
-            "nullable": true
-          },
-          "telefone": {
-            "type": "string",
-            "nullable": true
-          },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
-          "dataCadastro": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "orcamentos": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Orcamento"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
       "ClienteCadastroDTO": {
         "type": "object",
         "properties": {
@@ -640,7 +738,43 @@
         },
         "additionalProperties": false
       },
-      "Orcamento": {
+      "ClienteEditarDTO": {
+        "type": "object",
+        "properties": {
+          "nome": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefone": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrcamentoCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tipoAmbiente": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrcamentoDTO": {
         "type": "object",
         "properties": {
           "idOrcamento": {
@@ -671,14 +805,47 @@
           "dataSolicitacao": {
             "type": "string",
             "format": "date-time"
-          },
-          "idClienteNavigation": {
-            "$ref": "#/components/schemas/Cliente"
           }
         },
         "additionalProperties": false
       },
-      "Projeto": {
+      "OrcamentoEditarDTO": {
+        "type": "object",
+        "properties": {
+          "tipoAmbiente": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProjetoCadastroDTO": {
+        "type": "object",
+        "properties": {
+          "nomeProjeto": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipoAmbiente": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "fotoProjeto": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProjetoDTO": {
         "type": "object",
         "properties": {
           "idProjeto": {
@@ -701,12 +868,35 @@
             "type": "string",
             "nullable": true
           },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
           "dataCadastro": {
             "type": "string",
             "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProjetoEditarDTO": {
+        "type": "object",
+        "properties": {
+          "nomeProjeto": {
+            "type": "string",
+            "nullable": true
           },
-          "ativo": {
-            "type": "boolean"
+          "tipoAmbiente": {
+            "type": "string",
+            "nullable": true
+          },
+          "descricao": {
+            "type": "string",
+            "nullable": true
+          },
+          "fotoProjeto": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

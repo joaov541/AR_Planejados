@@ -1,0 +1,370 @@
+
+.pagina-sobre {
+  width: 100%;
+  min-height: 100vh;
+  background: #faf9f6;
+  color: #252525;
+  font-family: Arial, sans-serif;
+}
+
+.subtitulo-sobre {
+  display: block;
+  color: #a47750;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 17px;
+}
+
+.botao-sobre {
+  display: inline-block;
+  padding: 15px 27px;
+  background: #a47750;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.botao-sobre:hover {
+  background: #805a3b;
+  transform: translateY(-2px);
+}
+
+/* BANNER */
+
+.banner-sobre {
+  min-height: 490px;
+  display: flex;
+  align-items: center;
+  padding: 80px 10%;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(25, 25, 25, 0.88),
+      rgba(25, 25, 25, 0.35)
+    ),
+    url("https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80")
+    center/cover no-repeat;
+}
+
+.conteudo-banner-sobre {
+  max-width: 650px;
+  color: #fff;
+}
+
+.conteudo-banner-sobre h1 {
+  font-size: clamp(34px, 4.5vw, 58px);
+  line-height: 1.15;
+  margin-bottom: 22px;
+}
+
+.conteudo-banner-sobre h1 span {
+  color: #d1aa83;
+}
+
+.conteudo-banner-sobre p {
+  max-width: 520px;
+  color: #e6e1dc;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* HISTÓRIA */
+
+.historia-sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 75px;
+  padding: 100px 10%;
+}
+
+.imagem-historia img,
+.imagem-diferenciais img {
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.texto-historia h2,
+.texto-diferenciais h2 {
+  font-size: 36px;
+  line-height: 1.25;
+  margin-bottom: 22px;
+}
+
+.texto-historia h2 span {
+  color: #a47750;
+}
+
+.texto-historia p,
+.texto-diferenciais > p {
+  color: #77716b;
+  font-size: 14px;
+  line-height: 1.9;
+  margin-bottom: 18px;
+}
+
+.texto-historia .botao-sobre {
+  margin-top: 12px;
+}
+
+/* VALORES */
+
+.valores-sobre {
+  background: #f1eee9;
+  padding: 90px 10%;
+}
+
+.titulo-valores {
+  text-align: center;
+  max-width: 650px;
+  margin: 0 auto 50px;
+}
+
+.titulo-valores h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.titulo-valores p {
+  color: #77716b;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.grade-valores {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 25px;
+}
+
+.card-valor {
+  background: #faf9f6;
+  padding: 35px 28px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.card-valor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+}
+
+.icone-valor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #a47750;
+  color: #a47750;
+  margin-bottom: 25px;
+  font-size: 13px;
+}
+
+.card-valor h3 {
+  font-size: 21px;
+  margin-bottom: 13px;
+}
+
+.card-valor p {
+  color: #77716b;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* DIFERENCIAIS */
+
+.diferenciais-sobre {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 75px;
+  align-items: center;
+  padding: 100px 10%;
+}
+
+.texto-diferenciais h2 {
+  max-width: 480px;
+}
+
+.lista-diferenciais {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-top: 30px;
+}
+
+.lista-diferenciais div {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.lista-diferenciais span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #a47750;
+  color: white;
+  font-size: 13px;
+}
+
+.lista-diferenciais p {
+  color: #4e4944;
+  font-size: 14px;
+}
+
+/* CHAMADA FINAL */
+
+.chamada-sobre {
+  padding: 85px 20px;
+  text-align: center;
+  background: #292929;
+  color: #fff;
+}
+
+.chamada-sobre h2 {
+  font-size: 34px;
+  margin-bottom: 18px;
+}
+
+.chamada-sobre p {
+  max-width: 550px;
+  margin: 0 auto 28px;
+  color: #c9c4bf;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+/* RODAPÉ */
+
+.rodape-sobre {
+  padding: 40px 20px;
+  text-align: center;
+  background: #1d1d1d;
+  color: #fff;
+}
+
+.rodape-sobre h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.rodape-sobre h3 span {
+  color: #c49a72;
+}
+
+.rodape-sobre p {
+  color: #c9c4bf;
+  font-size: 13px;
+  margin-bottom: 22px;
+}
+
+.rodape-sobre > span {
+  color: #89837d;
+  font-size: 11px;
+}
+
+/* TABLET */
+
+@media (max-width: 900px) {
+  .banner-sobre {
+    padding: 65px 7%;
+  }
+
+  .historia-sobre,
+  .diferenciais-sobre {
+    gap: 35px;
+    padding: 75px 7%;
+  }
+
+  .imagem-historia img,
+  .imagem-diferenciais img {
+    height: 360px;
+  }
+
+  .valores-sobre {
+    padding: 75px 7%;
+  }
+
+  .grade-valores {
+    gap: 15px;
+  }
+
+  .card-valor {
+    padding: 25px 20px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+  .banner-sobre {
+    min-height: 420px;
+    padding: 55px 7%;
+  }
+
+  .conteudo-banner-sobre h1 {
+    font-size: 36px;
+  }
+
+  .conteudo-banner-sobre p {
+    font-size: 14px;
+  }
+
+  .historia-sobre,
+  .diferenciais-sobre {
+    grid-template-columns: 1fr;
+    padding: 65px 7%;
+    gap: 35px;
+  }
+
+  .imagem-historia img,
+  .imagem-diferenciais img {
+    height: 280px;
+  }
+
+  .texto-historia h2,
+  .texto-diferenciais h2 {
+    font-size: 29px;
+  }
+
+  .valores-sobre {
+    padding: 65px 7%;
+  }
+
+  .titulo-valores h2 {
+    font-size: 29px;
+  }
+
+  .grade-valores {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .card-valor {
+    padding: 28px;
+  }
+
+  .chamada-sobre {
+    padding: 65px 7%;
+  }
+
+  .chamada-sobre h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 360px) {
+  .conteudo-banner-sobre h1 {
+    font-size: 30px;
+  }
+}

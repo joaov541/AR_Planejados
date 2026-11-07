@@ -95,3 +95,20 @@ GO
 
 
 SELECT * FROM Cliente
+
+
+UPDATE Cliente
+SET
+    Nome = 'João Vitor',
+    Telefone = '11987654321',
+    Email = 'joao@email.com'
+WHERE IdCliente = 3;
+
+ALTER TABLE Orcamento
+DROP CONSTRAINT CK_Orcamento_Status;
+
+ALTER TABLE Orcamento
+ADD CONSTRAINT CK_Orcamento_Status
+CHECK (
+    Status IN ('Ativo', 'Em andamento', 'Concluído')
+);
